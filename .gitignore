@@ -1,0 +1,83 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Virtual environment
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+*.env
+
+# VS Code and PyCharm
+.vscode/
+.idea/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# Logs and temp files
+*.log
+*.tmp
+*.swp
+*.bak
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Test/cache tools
+.tox/
+.nox/
+.coverage
+htmlcov/
+.cache/
+pytest_cache/
+
+# mypy / type checker
+.mypy_cache/
+.dmypy.json
+.pyre/
+
+# Bandit security scanner
+bandit.yaml
+
+# Secret files
+*.pem
+*.key
+*.crt
+*.env
+
+# Pipenv
+Pipfile.lock
+
+# Poetry
+poetry.lock
+
+# pyproject.toml cache
+__pypackages__/
+
+# Pycharm .idea files
+.idea/
+
+# Local config
+*.local
+
+# GitHub Codespaces
+.devcontainer/
+
+# Ansible
+*.retry
